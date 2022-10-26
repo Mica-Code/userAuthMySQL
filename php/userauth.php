@@ -7,6 +7,8 @@ function registerUser($fullnames, $email, $password, $gender, $country){
     //create a connection variable using the db function in config.php
     $conn = db();
    //check if user with this email already exist in the database
+
+   $query = "select * from Students where email = ".$email
 }
 
 
